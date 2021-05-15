@@ -1,0 +1,24 @@
+DisplayName = Rocket Launcher
+Type = Rocket
+Power = 100
+Acceleration = 4.0
+Explosion = 8
+Flaming = true
+Sight = None 
+Delay = 100
+RidableOnly = true
+ModelBullet = fgm148
+Sound = missile_3_snd
+RigidityTime = 3
+TrajectoryParticleStartTick = 10
+Zoom = 4.2, 9.2
+
+DamageFactor = plane, 3.0
+DamageFactor = helicopter, 3.0
+DamageFactor = tank, 2.5
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

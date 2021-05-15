@@ -1,0 +1,15 @@
+DisplayName = Explode
+Type = Bomb
+Power = 60
+Acceleration = 0.1
+Explosion = 35
+ExplosionInWater = 0
+Flaming = true
+Sight = None
+Delay = 5000
+Destruct = true
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  16, iron_ingot
+Item =  16, gunpowder

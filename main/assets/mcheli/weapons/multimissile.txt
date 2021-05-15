@@ -1,0 +1,21 @@
+DisplayName = Fast Firing Missiles
+Type = AAMissile
+Power = 2
+Acceleration = 3
+Explosion = 1
+Flaming = false
+Sight = MissileSight
+Delay = 1
+ReloadTime = 110
+Round = 34
+LockTime = 1
+ProximityFuseDist = 4
+ModelBullet = hydra70
+Sound = missile_1_snd
+
+
+MaxAmmo = 136
+SuppliedNum = 68
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  2, redstone

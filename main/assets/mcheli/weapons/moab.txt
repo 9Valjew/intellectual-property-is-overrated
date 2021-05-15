@@ -1,0 +1,18 @@
+DisplayName = GBU-43/B MOAB
+Type = Bomb
+Power = 240
+Acceleration = 0.1
+Explosion = 41
+ExplosionInWater = 0
+Flaming = false
+Sight = MoveSight
+Delay = 34
+Sound = bomb_snd
+
+ReloadTime = 150
+Round = 1
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  16, iron_block
+Item =  16, hbm:tile.det_charge

@@ -1,0 +1,49 @@
+DisplayName = V-1 Flying Bomb
+AddDisplayName = ja_JP, V-1 Flying Bomb-Chan
+ItemID = 28720
+MaxHp = 150
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+Speed = 3.2
+FlareType = 4
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+VariableSweepWing = true
+SweepWingSpeed = 1.3
+MaxFuel         = 810
+FuelConsumption = 2.0
+
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
+
+HUD = plane, plane_gnr
+
+AddSeat = 0.00, 1.65,  0.34
+AddSeat = 0.00, 1.90, -1.59
+
+
+AddPartCanopy = 0, 3.22, -2.66, -1,0,0,  70
+
+AddPartLG =  0.00, 1.21,  0.20,  1,0,0, 100
+AddPartLG = -1.46, 1.98, -5.99,  1,0,0, 90,  0,0,1, 30
+AddPartLG =  1.46, 1.98, -5.99,  1,0,0, 90,  0,0,-1, 30
+
+;Left
+AddPartWing  =  1.50, 2.50, -4.57,  0, 1,0, 35
+AddPartPylon =  6.69, 2.50, -7.18,  0,-1,0, 35
+AddPartPylon =  3.92, 2.50, -6.34,  0,-1,0, 35
+;Right
+AddPartWing  = -1.50, 2.50, -4.57,  0,-1,0, 35
+AddPartPylon = -6.69, 2.50, -7.18,  0, 1,0, 35
+AddPartPylon = -3.92, 2.50, -6.34,  0, 1,0, 35
+
+AddWeapon = explosion, -0.59, 1.23,  1.78, 0.0, 0.0
+
+AddRecipe = " X ",  "XXX",  "DXD",  X, iron_block, D, iron_block
+
+BoundingBox =  0.0, 2.2, -1.3,  2.5, 1.8
+BoundingBox =  0.0, 1.8, -4.5,  3.0, 2.5
+BoundingBox =  0.0, 1.8, -8.0,  3.0, 2.0
+BoundingBox = -2.9, 1.9, -6.0,  3.0, 1.0
+BoundingBox =  2.9, 1.9, -6.0,  3.0, 1.0

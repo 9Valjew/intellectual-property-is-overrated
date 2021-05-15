@@ -1,0 +1,23 @@
+DisplayName = Aerial Shotgun System
+Type = Rocket
+Power = 16
+Acceleration = 4.0
+Explosion = 0
+Flaming = false
+Sound = gun_l1_snd
+Sight = MoveSight
+Delay = 3
+ReloadTime = 110
+Round = 12
+Bomblet = 28
+BombletSTime = 1
+BombletDiff = 2
+Piercing  = 2
+
+ModelBullet = torpedo
+ModelBomblet = bullet
+
+MaxAmmo = 28
+SuppliedNum = 1000
+Item =  3, iron_ingot
+Item =  3, gunpowder

@@ -1,0 +1,21 @@
+DisplayName = Nuclear cruise missile
+Type = Rocket
+Power = 750
+ModelBullet = missilebig
+Acceleration = 2.0
+Explosion = 250
+Sound = rocket_snd
+Flaming = false
+Sight = None
+Delay = 7
+ReloadTime = 110
+Round = 1
+
+; Particle test
+;TrajectoryParticle = heart
+;TrajectoryParticle = fireworksSpark
+
+MaxAmmo = 4
+SuppliedNum = 1
+Item =  3, iron_ingot
+Item =  3, gunpowder

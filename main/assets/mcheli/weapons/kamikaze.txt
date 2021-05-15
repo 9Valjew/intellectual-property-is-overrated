@@ -1,0 +1,15 @@
+DisplayName = Long live the Emperor
+Type = Bomb
+Power = 150
+Acceleration = 0.1
+Explosion = 35
+ExplosionInWater = 0
+Flaming = true
+Sight = None
+Delay = 5000
+Destruct = true
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  2, iron_ingot
+Item =  3, gunpowder

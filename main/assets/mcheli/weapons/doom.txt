@@ -1,0 +1,25 @@
+DisplayName = Tactical Nuke
+Type = Dispenser
+Acceleration = 0
+Sight = None
+Delay = 20
+Sound = bomb_snd
+SoundDelay = 4
+Gravity = -0.05
+
+Bomblet =0
+BombletSTime = 0
+BombletDiff = 0
+
+Round = 5
+ReloadTime = 170
+
+SmokeSize   = 0
+
+;着弾時に使用するアイテムに種を指定する。耕地に植えることができる。
+DispenseItem = hbm:item.grenade_nuclear
+DispenseRange = 0
+
+MaxAmmo = 20
+SuppliedNum = 5
+Item =  1, hbm:item.gadget_core
